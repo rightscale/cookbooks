@@ -347,7 +347,7 @@
       "choice": [
 
       ],
-      "default": "400",
+      "default": "32",
       "type": "string",
       "recipes": [
 
