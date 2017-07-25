@@ -341,6 +341,20 @@
       "display_name": "Apache Worker MPM StartServers",
       "description": "Initial number of server processes to start"
     },
+    "apache/worker/serverlimit": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "400",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "display_name": "Apache Worker MPM ServerLimit",
+      "description": "Upper limit on configurable server processes"
+    },    
     "apache/prefork/maxclients": {
       "required": "optional",
       "calculated": false,
@@ -423,7 +437,7 @@
       ],
       "display_name": "Apache Prefork MPM MaxSpareServers",
       "description": "Maximum number of spare server processes"
-    }
+    }   
   },
   "license": "Apache 2.0",
   "suggestions": {
